@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 40px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    padding: 30px;
+}
+main{
+    margin: 0 150px;
+}
+.logo{
+    flex: 1;
+}
+.search{
+    width: 100%;
+    position: relative;
+    flex: 5;
+    
+}
+.search i{
+    position: relative;
+    left:30px;
+    top: 2px;
+}
+.search input{
+    width:  80%;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    flex: 3;
+    background: rgb(243, 243, 243);
+}
+.headingNavBar{
+    width: 100px;
+    font-size: 0.9rem;
+    padding: 0 10px;
+    flex: 1;
+}
+.login{
+    flex: 1;
+}
+.myCart{
+    flex: 1;
+}
+.login button{
+    background: white;
+    width: 90px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.myCart button{
+ background: rgb(26, 226, 26);
+ width: 90px;
+ padding: 10px;
+ border: none;
+ border-radius: 10px;
+}
+.myCart i{
+    padding: 0 5px 0 0;
+}
+.sec1 img{
+    width: 100%;
+}
+.sec2 img{
+    width: 300px;
+}
+.sec2{
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+}
+.sec3 img{
+    width: 65px;
+}
+.sec3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}
+.sec4{
+    display: flex;
+    justify-content: center;
+    flex-direction:row ;
+    gap: 30px;
+}
+.sec4 img{
+    width: 100px;
+}
+.item{
+    width: 100px;
+
+}
+.add{
+    display: flex;
+    align-items: center;
+}
+
+.add button{
+    padding: 7px 18px;
+    background: white;
+    border: 1px solid green;
+    border-radius: 10px;
+    margin: 0 10px;
+}
