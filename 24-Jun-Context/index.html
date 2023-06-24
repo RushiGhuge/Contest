@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Oswald:wght@300&family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-bar">
+
+            <div class="nav-left">
+                <a href="#">Library System</a>
+            </div>
+
+            <div class="nav-right">
+                <a href="#">Book</a>
+                <a href="#">Register</a>
+                <a href="#">Contact</a>
+                <a href="#">Logout</a>
+            </div>
+
+
+        </div>
+    </nav>
+
+   <div class="book-container">
+    <h1>Books</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <td>Book Id</td>
+                <td width="1000px" >Title</td>
+                <td>Author</td>
+                <td>Genre</td>
+                <td>Avalibility</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td width="50%">
+                    <a href="#">Book title 1</a>
+                    <p>Publication Date: 2000</p>
+                    <p id="p">Page Count: 250</p>
+                    <p>ISBN:123-4567890123</p>
+                </td>
+                <td>Author Name 1</td>
+                <td>Genre 1</td>
+                <td>Available</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td width="50%">
+                    <a href="#">Book title 2</a>
+                    <p>Publication Date: 2005</p>
+                    <p id="p">Page Count: 250</p>
+                    <p>ISBN:123-4567890123</p>
+                </td>
+                <td>Author Name 2</td>
+                <td>Genre 2</td>
+                <td> Not Available</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td width="50%">
+                    <a href="#" id="booktitle">Book title 3</a>
+                    <p>Publication Date: 2010</p>
+                    <p id="p">Page Count: 250</p>
+                    <p>ISBN:123-4567890123</p>
+                </td>
+                <td>Author Name 3</td>
+                <td>Genre 3</td>
+                <td>Available</td>
+            </tr>
+
+            
+        </tbody>
+    </table>
+
+   </div>
+
+   <div class="book-container">
+    <h1 class="h1">Register</h1>
+        <div class="form-input">
+            <label for="">First Name:</label>
+            <input type="text">
+            <label for="">First Name:</label>
+            <input type="text"> 
+            <label for="">Date of Birth:</label>
+            <input type="date">
+            <label for="">Age:</label>
+            <input type="text">
+            <label for="">Email:</label>
+            <input type="text">
+            <label for="">Password:</label>
+            <input type="text">
+            <label for="">Conform Password:</label>
+            <input type="text">
+
+            <button>Register</button>
+        </div>
+    
+   </div>
+
+</body>
+</html>
